@@ -77,6 +77,16 @@ public class TestSelenium17_Assignment {
 
         Assert.assertEquals(driver.getCurrentUrl(),"https://katalon-demo-cura.herokuapp.com/#appointment");
 
+      /*  if(driver.getPageSource().contains("Make Appointment")){
+            System.out.println("Heading 'Make Appointment' is availabe.");
+            Assert.assertTrue(true);
+        }else {
+            //Assert.assertTrue(false);
+            // OR we can use throw Exception
+            throw new Exception("Heading 'Make Appointment' is not available.");*/
+
+
+        driver.quit();
     }
 
 
