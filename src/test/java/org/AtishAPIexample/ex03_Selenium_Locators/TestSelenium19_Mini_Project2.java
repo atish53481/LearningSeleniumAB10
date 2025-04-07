@@ -20,7 +20,7 @@ public class TestSelenium19_Mini_Project2 {
     @Description("Verify that the error message comes with invalid email on signup page.")
     @Test
     public void vwo_free_trail_error_verify(){
-
+        //29 Mar 11:20
         WebDriver driver = new EdgeDriver();
         driver.manage().window().maximize();
         driver.get("https://app.vwo.com");
