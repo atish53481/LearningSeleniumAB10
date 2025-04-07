@@ -42,6 +42,9 @@ public class TestSelenium19_Mini_Project2 {
         List<WebElement> buttonList = driver.findElements(By.tagName("button"));
         buttonList.get(0).click();
 
+        //29 Mar
+        //35:16
+        //Whenever there is wait then must in tey catch
         try {
             Thread.sleep(3000);
         } catch (InterruptedException e) {
