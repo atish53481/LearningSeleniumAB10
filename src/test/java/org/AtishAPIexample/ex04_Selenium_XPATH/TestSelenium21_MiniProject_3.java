@@ -56,7 +56,10 @@ public class TestSelenium21_MiniProject_3 {
 
 
 
-
+// 29 Mar 2:11:00
+        //Xpath
+        //2:18:00 CSS
+        //https://devhints.io/xpath
 
 
 
