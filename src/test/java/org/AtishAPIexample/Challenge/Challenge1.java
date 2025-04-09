@@ -7,6 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.Assert;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 
 import java.text.DecimalFormat;
@@ -89,3 +90,36 @@ public class Challenge1 {
     }
 
 
+/*
+@Test
+public void launchSite(){
+    driver.get("https://demo.applitools.com/app.html");
+    List<WebElement> listAmounts= driver.findElements(By.xpath("//table[@class='table table-padded']/tbody//tr/td[5]"));
+    double positiveSum = 0, negativeSum = 0;
+
+    for(WebElement element : listAmounts){
+        String text = element.getText();
+        System.out.println(text);
+        String[] arr = text.split(" ");
+        if(arr[0].equalsIgnoreCase("+")){
+            String a  =arr[1].replaceAll("[,]","");
+            positiveSum += Double.parseDouble(a);
+
+        }else {
+            String a  =arr[1].replaceAll("[,]","");
+            negativeSum += Double.parseDouble(a);
+
+        }
+    }
+    System.out.println("Sum of two number :"+positiveSum +" = "+negativeSum);
+    double sum = positiveSum-negativeSum;
+    System.out.println(sum);
+
+}
+@AfterTest
+public void postCondition() throws InterruptedException {
+    Thread.sleep(3000);
+    driver.quit();
+
+
+*/
