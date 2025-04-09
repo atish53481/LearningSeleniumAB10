@@ -1,4 +1,4 @@
-package org.AtishAPIexample.ex08_SVG_Elements;
+package org.AtishAPIexample.ex08_SVG_Elements_Tables;
 
 
 import io.qameta.allure.Description;
