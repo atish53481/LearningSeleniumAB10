@@ -10,6 +10,7 @@ import org.testng.annotations.Test;
 
 public class Lab44_Selenium_Exceptions {
 
+    //6 April
     public EdgeDriver driver;
 
     @BeforeTest

@@ -14,6 +14,7 @@ public class Lab41_JS_Code_ShadowDOM extends TestCaseBoilerPlate {
 
     @Test
     public void test_js() {
+        //3 April 2:20:00
         driver.get("https://selectorshub.com/xpath-practice-page/");
         driver.manage().window().maximize();
 

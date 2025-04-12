@@ -17,6 +17,8 @@ import java.time.Duration;
 
 public class Lab46_Exception_Selenium_TimeOut {
 
+
+
     public EdgeDriver driver;
 
     @BeforeTest

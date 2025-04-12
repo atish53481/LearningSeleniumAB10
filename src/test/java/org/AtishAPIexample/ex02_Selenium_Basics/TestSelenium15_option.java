@@ -5,7 +5,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.testng.annotations.Test;
 
-public class TestSelenium15 {
+public class TestSelenium15_option {
 
     @Description("Options Class")
     @Test

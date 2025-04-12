@@ -12,7 +12,11 @@ import org.testng.annotations.Test;
 
 public class Lab45_Selenium_Exceptions_StaleElement_Fix {
 
+    //6 April 22:43
     public EdgeDriver driver;
+
+    // we have remember when inpect any element ensure that don't use refresh navigation any other which is related other call
+
 
     @BeforeTest
     public void openBrowser(){

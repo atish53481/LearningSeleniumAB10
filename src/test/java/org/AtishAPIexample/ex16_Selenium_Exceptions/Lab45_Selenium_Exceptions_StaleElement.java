@@ -12,6 +12,8 @@ public class Lab45_Selenium_Exceptions_StaleElement {
 
 
 
+    //6b April 17:14
+
     public EdgeDriver driver;
 
     @BeforeTest
